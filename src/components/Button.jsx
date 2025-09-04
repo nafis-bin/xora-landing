@@ -25,19 +25,19 @@ const Button = ({ icon, children, href, containerClassName, onClick, markerFill 
     )
     
     return href ? (
+        // need to figure out a way to make shadow a class
         <a className={clsx('relative p-0.5 g5 rounded-2xl shadow-[0px_16px_24px_rgba(0,0,0,0.25),0px_-14px_48px_rgba(40,51,111,0.7)] group',
          containerClassName)}
          href={href}
-        //  style={{ boxShadow: 'var(--shadow-500)' }}
         >
             <Inner />
         </a>
     )
     : (
+        // need to figure out a way to make shadow a class
         <button className={clsx('relative p-0.5 g5 rounded-2xl shadow-[0px_16px_24px_rgba(0,0,0,0.25),0px_-14px_48px_rgba(40,51,111,0.7)] group',
           containerClassName)}
           onClick={onClick}
-        //   style={{ boxShadow: 'var(--shadow-500)' }}
         >
             <Inner />
         </button>
