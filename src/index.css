@@ -58,6 +58,32 @@
   background: linear-gradient(to right, transparent, #2ef2ff, transparent);
 }
 
+@utility h5 {
+  font-size: 32px !important;
+  font-weight: var(--font-weight-semibold) !important;
+  line-height: 40px !important;
+}
+
+/* @layer components {
+  .h5 {
+    @apply text-[32px] font-semibold leading-[40px];
+  }
+} */
+
+/* .h5 {
+  font-size: 32px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 40px;
+} */
+
+/* @layer components {
+  .h5 {
+    font-size: 32px;
+    font-weight: var(--font-weight-semibold);
+    line-height: 40px;
+  }
+} */
+
 @layer utilities {
   /* START of Typography */
   .h-num {
@@ -80,9 +106,18 @@
     @apply text-[40px] font-semibold leading-[52px];
   }
 
-  .h5 {
+  /* .h5 {
     @apply text-[32px] font-semibold leading-[40px];
-  }
+
+  } */
+
+  /* .h5 {
+    font-size: 32px;
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+    --tw-leading: 40px;
+    line-height: 40px;
+  } */
 
   .h6 {
     @apply text-[24px] font-medium leading-[36px];
