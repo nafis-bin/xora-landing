@@ -46,7 +46,7 @@
 
 }
 
-@utility g1 {
+/* @utility g1 {
   background: linear-gradient(rgba(196, 203, 245, 0.5), transparent);
 }
 
@@ -63,6 +63,12 @@
   font-weight: var(--font-weight-semibold) !important;
   line-height: 40px !important;
 }
+
+@utility h2 {
+  font-size: 64px;
+  font-weight: var(--font-weight-black);
+  line-height: 64px;
+} */
 
 /* @layer components {
   .h5 {
@@ -84,7 +90,7 @@
   }
 } */
 
-@layer utilities {
+@layer components {
   /* START of Typography */
   .h-num {
     @apply font-inter text-[72px] font-bold leading-[84px];
@@ -106,9 +112,20 @@
     @apply text-[40px] font-semibold leading-[52px];
   }
 
-  /* .h5 {
+  .h5 {
     @apply text-[32px] font-semibold leading-[40px];
 
+  }
+  /* .h5 {
+    font-size: 32px !important;
+    font-weight: var(--font-weight-semibold) !important;
+    line-height: 40px !important;
+  }
+
+  .h2 {
+    font-size: 64px;
+    font-weight: var(--font-weight-black);
+    line-height: 64px;
   } */
 
   /* .h5 {
@@ -185,9 +202,9 @@
     background: linear-gradient(#334679, #0c1838);
   }
 
-  /* .g7 {
+  .g7 {
     background: linear-gradient(#1b275a, #0e1434);
-  } */
+  }
 
   .g8 {
     background: linear-gradient(to right, transparent, #2ef2ff, transparent);
