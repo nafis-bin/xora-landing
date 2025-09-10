@@ -80,7 +80,17 @@
   .hero-img_res {
     @apply max-lg:-top-40 max-lg:left-[calc(50%-280px)] max-lg:w-[1160px] max-md:bottom-[-590px] max-md:left-[calc(50%-390px)] max-md:top-auto;
   }
+
+  .flex-50 {
+    flex: 0 0 50%;
+  }
+
+  .flex-320 {
+    flex: 1px 0 320px;
+  }
 }
+
+
 /* @utility h1 {
     @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
 } */
