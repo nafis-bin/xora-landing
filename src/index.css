@@ -96,7 +96,138 @@
   .nav-active {
     @apply text-p3;
   }
+
+  .h3 {
+    @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
+  }
+
+  .h4 {
+    @apply text-[40px] font-semibold leading-[52px];
+  }
+
+  .h5 {
+    @apply text-[32px] font-semibold leading-[40px];
+
+  }
+
+
+  .pricing-head_before {
+    @apply before:absolute before:-bottom-44 before:left-1/5 before:h-96 before:w-13/20 before:bg-s4/50 before:blur-[200px] before:content-[''];
+  }
+
+  .pricing-head_btn {
+    @apply text-[16px] font-bold leading-[24px] relative z-2 h-16 flex-1 uppercase text-p5 transition-colors duration-500 hover:text-p4;
+  }
+
+  .pricing-head_btn_before {
+    @apply before:absolute before:-top-16 before:left-9 before:right-9 before:bg-s4 before:blur-xl before:content-[""];
+  }
+
+  .pricing-bg {
+    @apply pointer-events-none absolute -bottom-16 left-[calc(50%-480px)] z-2 mx-auto w-960;
+  }
+
+  .pricing-plan_first {
+    @apply first:rounded-bl-3xl first:rounded-tl-3xl lg:first:border-r-0;
+  }
+
+  .pricing-plan_last {
+    @apply last:rounded-br-3xl last:rounded-tr-3xl lg:last:border-l-0;
+  }
+
+  .pricing-plan_odd {
+    @apply odd:border-s3 odd:bg-s1 lg:odd:mt-12;
+  }
+
+  .pricing-plan_even {
+    @apply even:g7 even:rounded-bl-3xl even:rounded-br-3xl even:rounded-tl-3xl even:rounded-tr-3xl even:border-s4;
+  }
+
+  /* START of Gradients */
+  .g1 {
+    background: linear-gradient(rgba(196, 203, 245, 0.5), transparent);
+  }
+
+  .g2 {
+    background: linear-gradient(#3062a3, #19549f);
+  }
+
+  .g3 {
+    background: linear-gradient(#3c52d9, #0c1838);
+  }
+
+  .g4 {
+    background: linear-gradient(#253575, #162561);
+  }
+
+  .g5 {
+    background: linear-gradient(#334679, #162561);
+  }
+
+  .g6 {
+    background: linear-gradient(#334679, #0c1838);
+  }
+
+  .g7 {
+    background: linear-gradient(#1b275a, #0e1434);
+  }
+
+  .g8 {
+    background: linear-gradient(to right, transparent, #2ef2ff, transparent);
+  }
+
+  .g9 {
+    background: linear-gradient(#080d27, transparent);
+  }
+
+  .scroll-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+
+
+  .body-1 {
+    @apply text-[22px] leading-[36px];
+  }
+
+  .body-2 {
+    @apply text-[18px] font-semibold leading-[32px];
+  }
+
+  .body-3 {
+    @apply text-[16px] leading-[28px] tracking-[0.02em];
+  }
+
+  .base {
+    @apply text-[16px] font-medium leading-[24px] tracking-[0.03em];
+  }
+
+  .base-bold {
+    @apply text-[16px] font-bold leading-[24px];
+  }
+
+  .base-small {
+    @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
+  }
+
+  .small-1 {
+    @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
+  }
+
+  .small-2 {
+    @apply text-[12px] font-bold leading-[16px] tracking-[0.3em];
+  }
+
+  .small-compact {
+    @apply text-[12px] font-semibold leading-[18px] tracking-[0.03em];
+  }
 }
+
 
 
 /* @utility h1 {
@@ -141,7 +272,7 @@
     @apply text-[64px] font-black leading-[64px];
   }
 
-  .h3 {
+  /* .h3 {
     @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
   }
 
@@ -156,7 +287,7 @@
 
   .h6 {
     @apply text-[24px] font-medium leading-[36px];
-  }
+  } */
 
   /* .h5 {
     font-size: 32px !important;
@@ -179,45 +310,11 @@
   } */
 
 
-  .body-1 {
-    @apply text-[22px] leading-[36px];
-  }
-
-  .body-2 {
-    @apply text-[18px] font-semibold leading-[32px];
-  }
-
-  .body-3 {
-    @apply text-[16px] leading-[28px] tracking-[0.02em];
-  }
-
-  .base {
-    @apply text-[16px] font-medium leading-[24px] tracking-[0.03em];
-  }
-
-  .base-bold {
-    @apply text-[16px] font-bold leading-[24px];
-  }
-
-  .base-small {
-    @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
-  }
-
-  .small-1 {
-    @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
-  }
-
-  .small-2 {
-    @apply text-[12px] font-bold leading-[16px] tracking-[0.3em];
-  }
-
-  .small-compact {
-    @apply text-[12px] font-semibold leading-[18px] tracking-[0.03em];
-  }
+  
 
   /* END of Typography */
   /* START of Gradients */
-  .g1 {
+  /* .g1 {
     background: linear-gradient(rgba(196, 203, 245, 0.5), transparent);
   }
 
@@ -251,7 +348,7 @@
 
   .g9 {
     background: linear-gradient(#080d27, transparent);
-  }
+  } */
 
   /* END of Gradients */
   /* START of Common */
@@ -267,14 +364,14 @@
     @apply text-[12px] font-bold leading-[16px] tracking-[0.3em] mb-5 uppercase text-p3;
   }
 
-  .scroll-hide::-webkit-scrollbar {
+  /* .scroll-hide::-webkit-scrollbar {
     display: none;
   }
 
   .scroll-hide {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  } */
 
   /* END of Common */
   /* START of Header */
@@ -329,37 +426,6 @@
 
   /* END of Feature */
   /* START of Pricing */
-  .pricing-head_before {
-    @apply before:absolute before:-bottom-44 before:left-1/5 before:h-96 before:w-13/20 before:bg-s4/50 before:blur-[200px] before:content-[''];
-  }
-
-  .pricing-head_btn {
-    @apply text-[16px] font-bold leading-[24px] relative z-2 h-16 flex-1 uppercase text-p5 transition-colors duration-500 hover:text-p4;
-  }
-
-  .pricing-head_btn_before {
-    @apply before:absolute before:-top-16 before:left-9 before:right-9 before:bg-s4 before:blur-xl before:content-[""];
-  }
-
-  .pricing-bg {
-    @apply pointer-events-none absolute -bottom-16 left-[calc(50%-480px)] z-2 mx-auto w-960;
-  }
-
-  .pricing-plan_first {
-    @apply first:rounded-bl-3xl first:rounded-tl-3xl lg:first:border-r-0;
-  }
-
-  .pricing-plan_last {
-    @apply last:rounded-br-3xl last:rounded-tr-3xl lg:last:border-l-0;
-  }
-
-  .pricing-plan_odd {
-    @apply odd:border-s3 odd:bg-s1 lg:odd:mt-12;
-  }
-
-  .pricing-plan_even {
-    @apply even:g7 even:rounded-bl-3xl even:rounded-br-3xl even:rounded-tl-3xl even:rounded-tr-3xl even:border-s4;
-  }
 
   /* END of Pricing */
   /* START of FAQ */
