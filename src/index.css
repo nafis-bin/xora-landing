@@ -88,6 +88,14 @@
   .flex-320 {
     flex: 1px 0 320px;
   }
+
+  .bg-black-100 {
+    background-color: #05091D;
+  }
+
+  .nav-active {
+    @apply text-p3;
+  }
 }
 
 
@@ -270,9 +278,9 @@
 
   /* END of Common */
   /* START of Header */
-  .nav-active {
+  /* .nav-active {
     @apply text-p3;
-  }
+  } */
 
   .nav-li {
     @apply relative flex flex-1 items-center justify-between max-lg:flex-col max-lg:items-start;
