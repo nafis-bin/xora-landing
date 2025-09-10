@@ -17,10 +17,12 @@ const Button = ({ icon, children, href, containerClassName, onClick, markerFill 
                         className="size-10 mr-5 object-contain z-10" 
                     />
                 )}
-                <span>
+                <span className="relative z-2 font-poppins base-bold text-p1 uppercase">
                     {children}
                 </span>
             </span>
+
+            <span className="glow-before glow-after" />
         </>
     )
     
