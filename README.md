@@ -1,12 +1,77 @@
-# React + Vite
+# Xora - AI Video Editor Landing Page
+A modern, responsive SaaS landing page built with React and Tailwind CSS for Xora, an AI-powered video editing platform that makes video editing amazingly simple.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Features
 
-Currently, two official plugins are available:
+- Modern Design: Clean, professional interface with vibrant gradients and 3D elements
+- Responsive Layout: Fully responsive design that works on all devices
+- React Components: Built with reusable React components for maintainability
+- Tailwind CSS v4: Utility-first CSS framework for rapid styling
+- Fast Performance: Optimized for speed and user experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
 
-## Expanding the ESLint configuration
+React: Frontend JavaScript library
+Tailwind CSS: Utility-first CSS framework
+HTML5: Semantic markup
+Modern JavaScript (ES6+): Latest JavaScript features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Before you begin, ensure you have the following installed:
+
+Node.js (version 22.0 or higher)
+npm or yarn package manager
+Git
+
+### Getting Started
+
+1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/xora-landing-page.git
+cd xora-landing-page
+```
+2. Install Dependencies
+Using npm:
+```bash
+npm install --legacy-peer-deps
+```
+3. Start the Development Server
+```bash
+npm run dev
+```
+The application will open in your browser at http://localhost:5174
+
+4. Build for Production
+```bash
+npm run build
+```
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+#### Author
+Nafis Bin
+
+GitHub: https://github.com/nafis-bin
+Email: nafisbinnizam@gmail.com
+
+### Acknowledgments
+
+- Tutorial & Guidance: JavaScript Mastery 
+
+### Performance
+This landing page is optimized for:
+
+Fast loading times
+SEO optimization
+Mobile responsiveness
+
+### Troubleshooting
+
+Common Issues
+Node modules error:
+
+```bash
+rm -rf node_modules package-lock.json
+npm install --legacy-peer-deps
+```
