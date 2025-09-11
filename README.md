@@ -1,5 +1,6 @@
 # Xora - AI Video Editor Landing Page
 A modern, responsive SaaS landing page built with React and Tailwind CSS for Xora, an AI-powered video editing platform that makes video editing amazingly simple.
+![showcase](./video.gif)
 
 ### Features
 
